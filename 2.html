@@ -2,77 +2,17 @@
 <head>
 <title>2.CSS</title>
 <meta charset="utf-8">
-<style>
-
-  body{
-         margin: 0;
-        }
-   p {
-          font-size:14px; color:black;
-          border-right:1px solid cyan;
-          padding:10px; margin:0px;
-        }
-    a {
-      font-style:normal;
-      font-size:14px; color:green;
-      text-decoration: none;
-    }
-
-
-    h3 {
-        color:red;
-      }
-
-    h1{   font-size: 32px;
-          color: aqua;
-          text-align:center;
-          border-bottom:1px solid cyan;
-        /* 보더안쪽 간격*/  padding:20px;
-        /* 보더와 보더사이 간격 */  margin:0px;
-          display:block;
-        /*  width:1520px; */
-        }
-    ol {
-          border-right:1px
-          solid cyan;
-          padding:35px;
-          margin:0px;
-          width:75px;
-        }
-    #grid{
-      display: grid;
-      grid-template-columns: 130px 1fr;
-    }
-    #grid ol{
-      padding-left:50px;
-    }
-    #grid #article{
-      padding-left:50px;
-    }
-    @media(max-width:800px){
-      #grid{
-        display: none;
-      }
-      ol{
-        border-right:none;  /*보드 right라인이 사라짐*/
-      }
-      h1 {
-        border-bottom:none; /*보드 bottom 라인이 사라짐*/
-      }
-    }
-  </style>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 <a href="main.html"><h1>Main</h1></a>
-
-  <div id="grid">
+<div id="grid">
     <ol>
       <li><a href="1.html">HTML</a></li>
       <li><a href="2.html" style="color:red; text-decoration:underline">CSS</a></li>
       <li><a href="3.html">JavaScript</a></li>
       <li><a href="4.html">MusicVidio</a></li>
     </ol>
-
 <div id="article">
 <h2>CSS [cascading style sheets]</h2>
 <p>
@@ -88,7 +28,7 @@ HTML을 이용해서 웹 페이지를 제작할 경우 전반적인 틀에서 �
 따라서 웹 개발자들은 보다 풍부한 디자인으로 웹을 설계할 수 있고, 글자의 크기, 글자체,
 줄간격, 배경 색상, 배열위치 등을 자유롭게 선택하거나 변경할 수 있으며
 유지·보수도 간편하게 할 수 있다.
- </p>
+</p>
 </div>
 </div>
 </body>

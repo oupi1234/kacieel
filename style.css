@@ -1,0 +1,57 @@
+body{
+       margin: 0;
+      }
+
+  a {
+    font-style:normal;
+    font-size:14px; color:green;
+    text-decoration: none;
+  }
+
+
+  h3 {
+      color:red;
+    }
+
+  h1{   font-size: 32px;
+        color: aqua;
+        text-align:center;
+        border-bottom:1px solid cyan;
+      /* 보더안쪽 간격*/  padding:20px;
+      /* 보더와 보더사이 간격 */  margin:0px;
+        display:block;
+      /*  width:1520px; */
+      }
+  ol {
+        border-right:1px
+        solid cyan;
+        padding:35px;
+        margin:0px;
+        width:75px;
+      }
+  p {
+             font-size:14px; color:black;
+             border-right:1px solid cyan;
+             padding:10px; margin:0px;
+           }
+  #grid{
+    display: grid;
+    grid-template-columns: 130px 1fr;
+  }
+  #grid ol{
+    padding-left:50px;
+  }
+  #grid #article{
+    padding-left:50px;
+  }
+  @media(max-width:800px){
+    #grid{
+      display: none;
+    }
+    ol{
+      border-right:none;  /*보드 right라인이 사라짐*/
+    }
+    h1 {
+      border-bottom:none; /*보드 bottom 라인이 사라짐*/
+    }
+  }
