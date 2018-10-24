@@ -12,6 +12,11 @@ body{
   h3 {
       color:red;
     }
+    h2 {
+      background-color: powderblue;
+      /* color: coral; 산호색 */
+      color: RoyalBlue;
+    }
 
   h1{   font-size: 32px;
         color: aqua;
@@ -22,6 +27,7 @@ body{
         display:block;
       /*  width:1520px; */
       }
+
   ol {
         border-right:1px
         solid cyan;
@@ -29,12 +35,23 @@ body{
         margin:0px;
         width:75px;
       }
+
   p {
              font-size:14px; color:black;
              border-right:1px solid cyan;
              padding:10px; margin:0px;
            }
-  #grid{
+
+  .js{ /* .  class 그룹 */
+             color:darkblue;
+           }
+ span{
+                 font-weight: bold; color:powderblue;
+               }
+  #first{
+    color:red;
+  }
+  #grid{    /* # ID 개별식별 */
     display: grid;
     grid-template-columns: 130px 1fr;
   }
