@@ -5,6 +5,7 @@
 <link rel="stylesheet" href="style.css">
 <body>
 <a href="main.html"><h1>Main</h1></a>
+
 <div id="grid">
 <ol>
     <li><a href="1.html" style="color:red; text-decoration:underline">HTML</a></li>
@@ -14,6 +15,14 @@
 </ol>
 <div id="article">
 <h2>HTML</h2>
+<input type="button" value="night" onclick="
+   document.querySelector('body').style.backgroundColor = 'black';
+   document.querySelector('body').style.color = 'white';
+">
+ <input type="button" value="day" onclick="
+   document.querySelector('body').style.backgroundColor = 'white';
+   document.querySelector('body').style.color = 'black';
+ ">
 <p>
 <br><br>
 Hypertext Map rkup Language <span>(HTML)</span> is the standard markup language for creating

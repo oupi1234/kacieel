@@ -37,7 +37,7 @@ body{
       }
 
   p {
-             font-size:14px; color:black;
+             font-size:14px; /*color:black;*/
              border-right:1px solid cyan;
              padding:10px; margin:0px;
            }
@@ -48,6 +48,7 @@ body{
  span{
                  font-weight: bold; color:powderblue;
                }
+
   #first{
     color:red;
   }
