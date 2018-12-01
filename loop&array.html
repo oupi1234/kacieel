@@ -1,0 +1,49 @@
+<!doctype html>
+<head>
+<title>2.CSS</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Loop & Array</h1>
+
+  <input id="night_day" type="button" value="night" onclick="
+    var target = document.querySelector('body');
+    if(this.value === 'night'){
+      target.style.backgroundColor = 'black';
+      target.style.color = 'white';
+      this.value = 'day';
+
+      var alist = document.querySelectorAll('a');
+      var i = 0;
+      while(i < alist.length){
+        alist[i].style.color = 'powderblue';
+        i = i + 1;
+      }
+    } else {
+      target.style.backgroundColor = 'white';
+      target.style.color = 'black';
+      this.value = 'night';
+
+      var alist = document.querySelectorAll('a');
+      var i = 0;
+      while(i < alist.length){
+        alist[i].style.color = 'blue';
+        i = i + 1;
+      }
+    }
+  ">
+      <script>
+        var coworkers = ['egoing','leezche','duru','taeho'];
+      </script>
+      <h2>Co workers</h2>
+      <ul>
+        <script>
+          var i = 0;
+          while(i < coworkers.length){
+            document.write('<li><a href="http://a.com/'+coworkers[i]+'">'+coworkers[i]+'</a></li>');
+            i = i + 1;
+          }
+        </script>
+</body>
+</html>
