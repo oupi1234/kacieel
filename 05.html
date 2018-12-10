@@ -1,0 +1,53 @@
+<!doctype html>
+<head>
+<title>1.HTML</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
+<body>
+  <input id="night_day" type="button" value="night" onclick="
+    var target = document.querySelector('body');
+    if(this.value === 'night'){
+      target.style.backgroundColor = 'black';
+      target.style.color = 'white';
+      this.value = 'day';
+
+      var alist = document.querySelectorAll('a');
+      var i = 0;
+      while(i < alist.length){
+        alist[i].style.color = 'powderblue';
+        i = i + 1;
+      }
+    } else {
+      target.style.backgroundColor = 'white';
+      target.style.color = 'black';
+      this.value = 'night';
+
+      var alist = document.querySelectorAll('a');
+      var i = 0;
+      while(i < alist.length){
+        alist[i].style.color = 'blue';
+        i = i + 1;
+      }
+    }
+  ">
+  <a href="https://oupi1234.github.io/wideweb/main.html"><h1>Main</h1></a>
+  <div id="grid">
+    <ol>
+      <li><a href="https://oupi1234.github.io/wideweb/main.html">My Stage</a></li>
+      <li><a href="https://blog.naver.com/oupi1992" taget="blank">Drama_Review</a></li>
+      <li><a href="https://blog.naver.com/oupi1992" taget="blank">Reading_Review</a></li>
+      <li><a href="https://www.youtube.com/channel/UC1XEyEGCG0vNdVFFeCmed4Q" taget="blank">Drama_OST</a></li>
+      <li><a href="https://oupi1234.github.io/wideweb/gundma/05.html" taget="blank"> GUN PLA</a></li>
+    </ol>
+  <div id="article">
+  <h2>GUNDAM PLAMODEL</h2>
+  <br><br>
+  <center>
+  <img src="gumdam01.png" width="800">
+ </center>
+  <br>
+  </p>
+  </div>
+  </div>
+  </body>
+  </html>
