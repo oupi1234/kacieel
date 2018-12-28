@@ -3,49 +3,26 @@
 <title>1.HTML</title>
 <meta charset="utf-8">
 <link rel="stylesheet" href="style.css">
+<script src="bgcolor.js"></script>
+<input id="night_day" type="button" value="night" margin="0px" padding="0px"
+  onclick="nightDayHandler(this); ">
+</head>
 <body>
-  <input id="night_day" type="button" value="night" onclick="
-    var target = document.querySelector('body');
-    if(this.value === 'night'){
-      target.style.backgroundColor = 'black';
-      target.style.color = 'white';
-      this.value = 'day';
-
-      var alist = document.querySelectorAll('a');
-      var i = 0;
-      while(i < alist.length){
-        alist[i].style.color = 'powderblue';
-        i = i + 1;
-      }
-    } else {
-      target.style.backgroundColor = 'white';
-      target.style.color = 'black';
-      this.value = 'night';
-
-      var alist = document.querySelectorAll('a');
-      var i = 0;
-      while(i < alist.length){
-        alist[i].style.color = 'blue';
-        i = i + 1;
-      }
-    }
-  ">
-<a href="main.html"><h1>Main</h1></a>
+  <a href="main.html"><h1>Main</h1></a>
 <div id="grid">
   <ol>
-    <li><a href="https://oupi1234.github.io/kacieel/main.html">My Stage</a></li>
-    <li><a href="https://blog.naver.com/oupi1992" taget="blank">Drama_Review</a></li>
+    <li><a href="https://oupi1234.github.io/kacieel/main.html" target="blank">My Stage</a></li>
+    <li><a href="https://photos.google.com/sharing" taget="blank">Drama_Review</a></li>
     <li><a href="https://blog.naver.com/oupi1992" taget="blank">Reading_Review</a></li>
-    <li><a href="https://www.youtube.com/channel/UC1XEyEGCG0vNdVFFeCmed4Q" taget="blank">Drama_OST</a></li>
-    <li><a href="https://oupi1234.github.io/kacieel/05.html"taget="blank"> GUN PLA</a></li>
+    <li><a href="https://www.youtube.com/channel/UC79ckAI911DUr-dGc2gMWXw?view_as=subscriber" taget="blank">Drama_OST</a></li>
+    <li><a href="https://oupi1234.github.io/kacieel/05.html" taget="blank"> GUN PLA</a></li>
   </ol>
 <div id="article">
 <h2>My Stage</h2>
 
-
 <br><br>
-<img src="https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/module/3135/7648.png
-" width="450">
+<img src="https://oupi1234.github.io/kacieel/gundam/gundam01.png>
+" width="700" align="center">
 <br>
 <a href="https://opentutorials.org" target="_blank" title="오튜토리얼">opentutorials</a>
 </p>
