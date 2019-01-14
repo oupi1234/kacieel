@@ -4,13 +4,13 @@ body{
 
   a {
     font-style:normal;
-    font-size:14px; color:.dker;
+    font-size:14px; color:green;
     text-decoration: none;
   }
 
 
   h3 {
-      color:red;
+      font-size:12px; color:pink;
     }
     h2 {
       background-color: powderblue;
